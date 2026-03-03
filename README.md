@@ -16,6 +16,3 @@ If you find our work useful in your research, please consider citing:
   year={2026}
 }
 ```
-
-## Contact
-If you have any question about this project, please feel free to contact [Junpeng Shang]: jpshang@zju.edu.cn
