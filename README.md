@@ -7,6 +7,7 @@ We are quite grateful for [BUTD-DETR](https://github.com/nickgkan/butd_detr), [E
 
 
 ## Citation
+If you find our work useful in your research, please consider citing:
 ```
 @inproceedings{wu2022eda,
   title={PV-Ground: Text-Guided Point-Voxel Interaction for 3D Visual Grounding},
@@ -16,3 +17,5 @@ We are quite grateful for [BUTD-DETR](https://github.com/nickgkan/butd_detr), [E
 }
 ```
 
+## Contact
+If you have any question about this project, please feel free to contact [Junpeng Shang]: jpshang@zju.edu.cn
