@@ -20,7 +20,7 @@ If you find our work useful in your research, please consider citing:
 ```
 @inproceedings{shang2026pv,
   title={PV-Ground: Text-Guided Point-Voxel Interaction for 3D Visual Grounding},
-  author={Shang, Junpeng and Shao, Feifei and Xiao, Jun and Lin, Li and Wang Hongwei and Ma, Dongfang},
+  author={Shang, Junpeng and Shao, Feifei and Xiao, Jun and Li, Lin and Wang, Hongwei and Ma, Dongfang},
   booktitle={Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
   year={2026}
 }
