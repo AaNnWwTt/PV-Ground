@@ -1,7 +1,27 @@
 # PV-Ground: Text-Guided Point-Voxel Interaction for 3D Visual Grounding
 This repo is the official implementation of "**PV-Ground: Text-Guided Point-Voxel Interaction for 3D Visual Grounding**". [CVPR2026]
+We are currently preparing the source code. It will be made available before the conference.
 
 ## Installation
+```
+conda create -n pvg python=3.12
+conda activate pvg
+pip3 install torch torchvision
+pip install numpy ipython psutil traitlets transformers==4.36.2 termcolor ipdb scipy tensorboardX h5py wandb plyfile tabulate einops six
+pip install spacy
+python -m spacy download en_core_web_sm
+cd pointnet2
+pip install . --no-build-isolation
+```
+
+Install the Point-Voxel module from [OpenPCDet](https://github.com/open-mmlab/OpenPCDet): 
+```
+pip install spconv-cu124
+git clone https://github.com/open-mmlab/OpenPCDet.git
+cd OpenPCDet
+pip install -e . --no-build-isolation
+```
+Note: You can comment out all the datasets in OpenPCDet/pcdet/datasets/__init__.py that cause errors during training and evaluation.
 
 ## Data Preparation
 
