@@ -27,7 +27,7 @@ git clone https://github.com/open-mmlab/OpenPCDet.git
 cd OpenPCDet
 pip install -e . --no-build-isolation
 ```
-Note: You can comment out all the datasets in OpenPCDet/pcdet/datasets/__init__.py that cause errors during training and evaluation.
+Note: You may need to comment out all the datasets in OpenPCDet/pcdet/datasets/__init__.py that cause errors during training and evaluation.
 
 ## Data Preparation
 
