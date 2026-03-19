@@ -113,7 +113,7 @@ ScanNetv2
 ## Main Results
 
 ## Acknowledgements
-This repository is built on reusing codes of [BUTD-DETR](https://github.com/nickgkan/butd_detr), [EDA](https://github.com/yanmin-wu/EDA), [MCLN](https://github.com/qzp2018/MCLN) and [OpenPCDet](https://github.com/open-mmlab/OpenPCDet). We are quite grateful for these works. 
+This repository is built on reusing codes of [BUTD-DETR](https://github.com/nickgkan/butd_detr), [EDA](https://github.com/yanmin-wu/EDA), [MCLN](https://github.com/qzp2018/MCLN) and [OpenPCDet](https://github.com/open-mmlab/OpenPCDet). We are quite grateful for them. 
 
 
 ## Citation
