@@ -4,18 +4,23 @@ This repo is the official implementation of "**PV-Ground: Text-Guided Point-Voxe
 We are currently preparing the source code. It will be made available before the conference.
 
 ## Installation
+
++ **(1)** Create environment:
 ```
 conda create -n pvg python=3.12
 conda activate pvg
 pip3 install torch torchvision
 pip install numpy ipython psutil traitlets transformers==4.36.2 termcolor ipdb scipy tensorboardX h5py wandb plyfile tabulate einops six
+```
+
++ **(2)** Install spacy for text parsing
+```
 pip install spacy
 python -m spacy download en_core_web_sm
 cd pointnet2
 pip install . --no-build-isolation
 ```
-
-Install [OpenPCDet](https://github.com/open-mmlab/OpenPCDet): 
++ **(3)** Install [OpenPCDet](https://github.com/open-mmlab/OpenPCDet): 
 ```
 pip install spconv-cu124
 git clone https://github.com/open-mmlab/OpenPCDet.git
