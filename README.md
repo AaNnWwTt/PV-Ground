@@ -10,7 +10,7 @@ We are currently preparing the source code. It will be made available before the
 conda create -n pvg python=3.12
 conda activate pvg
 pip3 install torch torchvision
-pip install numpy ipython psutil traitlets transformers==4.36.2 termcolor ipdb scipy tensorboardX h5py wandb plyfile tabulate einops six
+pip install numpy ipython psutil traitlets transformers<5.0 termcolor ipdb scipy tensorboardX h5py wandb plyfile tabulate einops six
 ```
 
 + **(2)** Install spacy for text parsing
