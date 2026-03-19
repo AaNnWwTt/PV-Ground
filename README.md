@@ -1,5 +1,6 @@
 # PV-Ground: Text-Guided Point-Voxel Interaction for 3D Visual Grounding
 This repo is the official implementation of "**PV-Ground: Text-Guided Point-Voxel Interaction for 3D Visual Grounding**". [CVPR2026]
+
 We are currently preparing the source code. It will be made available before the conference.
 
 ## Installation
