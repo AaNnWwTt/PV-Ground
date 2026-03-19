@@ -15,7 +15,7 @@ cd pointnet2
 pip install . --no-build-isolation
 ```
 
-Install the Point-Voxel module from [OpenPCDet](https://github.com/open-mmlab/OpenPCDet): 
+Install [OpenPCDet](https://github.com/open-mmlab/OpenPCDet): 
 ```
 pip install spconv-cu124
 git clone https://github.com/open-mmlab/OpenPCDet.git
