@@ -105,9 +105,43 @@ ScanNetv2
   ```
   
 ## Training
++ Please specify the paths of `--data_root`, `--log_dir`, `--pp_checkpoint` in the `train_*.sh` script first.
++ For **ScanRefer** training
+  ```
+  sh scripts/train_scanrefer.sh
+  ```
++ For **ScanRefer (single stage)** training
+  ```
+  sh scripts/train_scanrefer_single.sh
+  ```
++ For **SR3D** training
+  ```
+  sh scripts/train_sr3d.sh
+  ```
++ For **NR3D** training
+  ```
+  sh scripts/train_nr3d.sh
+  ```
 
 ## Evaluation
-
++ Please specify the paths of `--data_root`, `--log_dir`, `--checkpoint_path` in the `test_*.sh` script first.
++ For **ScanRefer** evaluation
+  ```
+  sh scripts/test_scanrefer.sh
+  ```
++ For **ScanRefer (single stage)** evaluation
+  ```
+  sh scripts/test_scanrefer_single.sh
+  ```
++ For **SR3D** evaluation
+  ```
+  sh scripts/test_sr3d.sh
+  ```
++ For **NR3D** evaluation
+  ```
+  sh scripts/test_nr3d.sh
+  ```
+  
 ## Main Results
 
 ## Acknowledgements
