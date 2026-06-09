@@ -131,25 +131,25 @@ class Joint3DDataset(Dataset):
         
         # step 4. load text dataset
         if self.split != 'train':
-            # self.annos = self.load_annos(test_dataset)
+            self.annos = self.load_annos(test_dataset)
             # file_name = 'scanrefer_val_preprocessed_data.pkl'  # 创建以dset开头的文件名
             # file_name = 'nr3d_val_preprocessed_data.pkl' 
             # file_name = 'sr3d_val_preprocessed_data.pkl' 
-            file_name = f'{test_dataset}_val_preprocessed_data.pkl'
+            # file_name = f'{test_dataset}_val_preprocessed_data.pkl'
             # with open(file_name, 'wb') as file:
             #     pickle.dump(self.annos, file)  # 存储数据到文件
-            with open(file_name, 'rb') as file:
-                self.annos = pickle.load(file)
+            # with open(file_name, 'rb') as file:
+            #     self.annos = pickle.load(file)
         else:
             self.annos = []
             for dset, cnt in dataset_dict.items():  
                 if cnt > 0:
-                    # _annos = self.load_annos(dset)
-                    file_name = f'{dset}_preprocessed_data.pkl'  # 创建以dset开头的文件名
+                    _annos = self.load_annos(dset)
+                    # file_name = f'{dset}_preprocessed_data.pkl'  # 创建以dset开头的文件名
                     # with open(file_name, 'wb') as file:
                     #     pickle.dump(_annos, file)  # 存储数据到文件
-                    with open(file_name, 'rb') as file:
-                        _annos = pickle.load(file)
+                    # with open(file_name, 'rb') as file:
+                    #     _annos = pickle.load(file)
                     self.annos += (_annos * cnt)
 
         if self.visualization_superpoint:
