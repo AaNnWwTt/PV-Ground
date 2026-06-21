@@ -143,7 +143,7 @@ ScanNetv2
   ```
   
 ## Main Results
-We will release the pre-trained model soon.
+We provide our pretrained models [HERE](https://huggingface.co/AaNnWwTt/PV-Ground), including single-stage models trained on ScanRefer, Nr3D and Sr3D.
 
 ## Acknowledgements
 This repository is built on reusing codes of [BUTD-DETR](https://github.com/nickgkan/butd_detr), [EDA](https://github.com/yanmin-wu/EDA), [MCLN](https://github.com/qzp2018/MCLN) and [OpenPCDet](https://github.com/open-mmlab/OpenPCDet). We are quite grateful for them. 
