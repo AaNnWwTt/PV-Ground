@@ -10,10 +10,10 @@ TORCH_DISTRIBUTED_DEBUG=INFO CUDA_VISIBLE_DEVICES=0 python -m torch.distributed.
     --detect_intermediate --joint_det \
     --use_soft_token_loss --use_contrastive_align \
     --log_dir /root/autodl-tmp/logs/ \
-    --lr_decay_epochs 10 30 \
+    --lr_decay_epochs 20 50 \
     --self_attend \
     --checkpoint_path /root/autodl-tmp/ckpt/PV-Ground_NR3D.pth \
-    --max_epoch 140 \
+    --max_epoch 100 \
     --model PVGround \
     --exp PVGround \
     # --pp_checkpoint /home/sjp/3DVG/vg_data/gf_detector_l6o256.pth \
